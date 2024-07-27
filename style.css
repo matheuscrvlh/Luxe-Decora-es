@@ -12,7 +12,7 @@
 
 li > a {
     padding: 0px 30px 0px 30px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-decoration: none;
     color: black;
 }
@@ -33,29 +33,29 @@ a:hover {
     background-position: center bottom;
     background-size: cover;
     width: 100vw;
-    height: 650px;
+    height: 500px;
 }
 
 .imgprincipal > h1 {
     text-align: left;
-    padding: 150px 0px 0px 90px;
-    font-size: 80px;
+    padding: 130px 0px 0px 90px;
+    font-size: 70px;
 }
 
-/*.divisao {
-    color: rgba(0, 0, 0, 0);
+.cabecalhoitens {
     text-align: center;
-    padding: 60px;
-    text-shadow: 10px 10px 7px rgba(0, 0, 0, 0.507);
-}*/
+    margin-top: 90px;
+}
 
 .itens {
     display: flex;
-    margin-top: 60px;
+    margin-top: 50px;
     width: 80vh;
 }
 
-.itens > div {
+.itens > a {
+    background-color: lightblue;
+    box-shadow: 4px 5px 9px rgba(0, 0, 0, 0.164);
     display: flex;
     position: relative;
     background-position: center center;
@@ -65,21 +65,30 @@ a:hover {
     min-height: 260px;
     padding: 50px;
     margin: 0px 20px 0px 20px;
-    background-color: lightblue;
+    transition: 1s;
 }
 
-.itens > div > h1 {
+.itens > a > h1 {
     background-color: rgb(139, 207, 230);
+    color: black;
     position: absolute;
     bottom: 0px;
     left: 0px;
     width: 100%;
     padding: 15px 0px 15px 0px;
     text-align: center;
+    transition: 0.3s;
 }
 
-.itens > div:hover {
-    padding: 70px;
+#boxitem:hover {
+    top: -15px;
+    box-shadow: 4px 5px 11px rgba(0, 0, 0, 0.274);
+    transition: 1s;
+}
+
+#boxitem:hover > h1 {
+    bottom: 15px;
+    transition: 0.3s;
 }
 
 /* IMAGENS ITENS */
