@@ -5,9 +5,17 @@
     margin: 0;
 }
 
+body {
+    background-color: #f5f5f741;
+
 .faixasuperior {
+    background-color: white;
     text-align: center;
     padding: 20px;
+}
+
+.faixasuperior > ul > li {
+    list-style-type: none;
 }
 
 li > a {
@@ -27,8 +35,7 @@ a:hover {
 }
 
 .imgprincipal {
-    background-color: white;
-    background-image: url(imagens/principal.png);
+    background-image: url(imagens/principal-png.png);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -38,8 +45,14 @@ a:hover {
 
 .imgprincipal > h1 {
     text-align: left;
-    padding: 130px 0px 0px 90px;
+    padding: 20px 0px 0px 210px;
     font-size: 70px;
+}
+
+.imgprincipal > h1 > a {
+    color: rgb(17, 67, 83);
+    text-decoration: none;
+    font-size: 100px;
 }
 
 .cabecalhoitens {
@@ -48,10 +61,13 @@ a:hover {
 }
 
 .itens {
+    position: static;
     display: flex;
     margin-top: 50px;
-    width: 80vh;
+    width: 100%;
+    overflow-x:auto;
 }
+
 
 .itens > a {
     background-color: lightblue;
@@ -92,7 +108,6 @@ a:hover {
 }
 
 /* IMAGENS ITENS */
-
 .item1 {
     background-image: url(imagens/quadro.jpg);
 }
@@ -129,4 +144,41 @@ a:hover {
     background-image: url(--);
 }
 
+.item9 {
+    background-image: url(--);
+}
 
+.item9 {
+    background-image: url(--);
+}
+
+.item9 {
+    background-image: url(--);
+}
+/* FINAL ITENS */
+
+.boxsecundarias {
+    background-color: gray;
+    margin: auto;
+    margin-top: 100px;
+    width: 1000px;
+    height: 2000px;
+}
+
+.boxsuperior {
+    background-color: blue;
+    display: flex;
+    width: 1000px;
+    height: 600px;
+}
+
+.leftbox {
+    max-width: 500px;
+    max-height: 600px;
+}
+
+.rightbox > img {
+    background-size: cover;
+    max-width: 500px;
+    height: 600px;
+}
