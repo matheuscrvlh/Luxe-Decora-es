@@ -316,3 +316,54 @@ a:hover {
     max-width: 500px;
     height: 600px;
 }
+
+/* MAIS VENDIDOS */
+
+.boxmv > h1 {
+    color: rgb(17, 67, 83);
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.mvitens {
+    display: flex;
+    margin: auto;
+    width: 1200px;
+    height: 350px;
+}
+
+.mvitens > a {
+    position: relative;
+    margin-left: 33px;
+    width: 200px;
+    height: 350px;
+}
+
+.mvitens > a > h1 {
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 0px 5px 0px;
+}
+
+.itensmv1 {
+    background-color: blue;
+}
+
+.itensmv2 {
+    background-color: yellow;
+}
+
+.itensmv3 {
+    background-color: pink;
+}
+
+.itensmv4 {
+    background-color: black;
+}
+
+.itensmv5 {
+    background-color: orange;
+}
