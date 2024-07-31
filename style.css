@@ -293,8 +293,8 @@ a:hover {
     text-align: right;
 }
 
-.boxinferior > .leftbox > button {
-    background-color: transparent;
+.boxinferior > .leftbox > .bnt {
+    background-color: #FCFCFC;
     border: 3px solid rgb(17, 67, 83);
     color: rgb(17, 67, 83);
     font-weight: bolder;
@@ -305,8 +305,10 @@ a:hover {
     height: 60px;
 }
 
-.boxinferior > .leftbox > button:hover {
+.bnt:hover {
     cursor: pointer;
+    color: white;
+    
 }
 
 .boxinferior > .rightbox > img {
@@ -324,46 +326,67 @@ a:hover {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 40px;
+    font-size: 2.5em;
 }
 
 .mvitens {
     display: flex;
     margin: auto;
     width: 1200px;
-    height: 350px;
+    height: 400px;
 }
 
 .mvitens > a {
     position: relative;
+    background-position: center center;
+    background-size: cover;
     margin-left: 33px;
     width: 200px;
-    height: 350px;
+    height: 410px;
 }
 
-.mvitens > a > h1 {
-    background-color: white;
+.mvitens > a > .descrimv {
+    background-color: #FCFCFC;
+    color: rgb(17, 67, 83);
     position: absolute;
     bottom: 0px;
     width: 100%;
-    padding: 10px 0px 5px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 25px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.mvitens > a > .valormv {
+    background-color: #FCFCFC;
+    color: black;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 1.3em;
+
+}
+
+#mvbox:hover {
+   bottom: 15px;
 }
 
 .itensmv1 {
-    background-color: blue;
+    background-image: url(imagens/jarromv.webp);
 }
 
 .itensmv2 {
-    background-color: yellow;
+    background-image: url(imagens/quadromv.jpg);
 }
 
 .itensmv3 {
-    background-color: pink;
+    background-image: url(imagens/araramv.jpg);
 }
 
 .itensmv4 {
-    background-color: black;
+    background-image: url(imagens/centromesamv.jpg);
 }
 
 .itensmv5 {
-    background-color: orange;
+    background-image: url(imagens/tacainvertidamv.jpg);
 }
