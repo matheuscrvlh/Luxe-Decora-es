@@ -108,7 +108,7 @@ a:hover {
     transition: 0.3s;
 }
 
-/* IMAGENS ITENS */
+/* ----------- IMAGENS ITENS ----------- */
 .item1 {
     background-image: url(imagens/quadro.jpg);
 }
@@ -156,7 +156,7 @@ a:hover {
 .item9 {
     background-image: url(--);
 }
-/* FINAL ITENS */
+/* ----------- FINAL ITENS ----------- */
 
 .boxsecundarias {
     margin: auto;
@@ -165,7 +165,7 @@ a:hover {
     height: 1940px;
 }
 
-/* BOX SUPERIOR */
+/* ----------- BOX SUPERIOR ----------- */
 .boxsuperior {
     display: flex;
     position: relative;
@@ -202,10 +202,14 @@ a:hover {
     font-size: 1.5em;
     width: 200px;
     height: 60px;
+    transition: 0.4s;
 }
 
 .boxsuperior > .leftbox > button:hover {
     cursor: pointer;
+    background-color: rgb(17, 67, 83);
+    color: #FCFCFC;
+    transition: 0.4s;
 }
 
 .boxsuperior > .rightbox > img {
@@ -216,7 +220,7 @@ a:hover {
     height: 600px;
 }
 
-/* BOX MEIO */
+/* ----------- BOX MEIO ----------- */
 .boxmeio {
     margin-top: 70px;
     display: flex;
@@ -252,10 +256,14 @@ a:hover {
     font-size: 1.5em;
     width: 200px;
     height: 60px;
+    transition: 0.4s;
 }
 
 .boxmeio > .rightbox > button:hover {
     cursor: pointer;
+    background-color: rgb(17, 67, 83);
+    color: #FCFCFC;
+    transition: 0.4s;
 }
 
 .boxmeio > .leftbox > img {
@@ -265,7 +273,7 @@ a:hover {
     height: 600px;
 }
 
-/* BOX INFERIOR */
+/* ----------- BOX INFERIOR ----------- */
 .boxinferior {
     margin-top: 70px;
     display: flex;
@@ -293,7 +301,7 @@ a:hover {
     text-align: right;
 }
 
-.boxinferior > .leftbox > .bnt {
+.boxinferior > .leftbox > button {
     background-color: #FCFCFC;
     border: 3px solid rgb(17, 67, 83);
     color: rgb(17, 67, 83);
@@ -303,11 +311,14 @@ a:hover {
     font-size: 1.5em;
     width: 200px;
     height: 60px;
+    transition: 0.4s;
 }
 
-.bnt:hover {
+.boxinferior > .leftbox > button:hover {
     cursor: pointer;
-    color: white;
+    background-color: rgb(17, 67, 83);
+    color: #FCFCFC;
+    transition: 0.4s;
     
 }
 
@@ -319,7 +330,7 @@ a:hover {
     height: 600px;
 }
 
-/* MAIS VENDIDOS */
+/* ----------- MAIS VENDIDOS ----------- */
 
 .boxmv > h1 {
     color: rgb(17, 67, 83);
@@ -370,6 +381,7 @@ a:hover {
 
 #mvbox:hover {
    bottom: 15px;
+   transition: 0.4s;
 }
 
 .itensmv1 {
@@ -391,6 +403,8 @@ a:hover {
 .itensmv5 {
     background-image: url(imagens/tacainvertidamv.jpg);
 }
+
+/* ----------- RODAPÉ ----------- */
 
 .divline {
     text-align: center;
