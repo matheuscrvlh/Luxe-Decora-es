@@ -334,6 +334,7 @@ a:hover {
     margin: auto;
     width: 1200px;
     height: 400px;
+    margin-bottom: 50px;
 }
 
 .mvitens > a {
@@ -389,4 +390,17 @@ a:hover {
 
 .itensmv5 {
     background-image: url(imagens/tacainvertidamv.jpg);
+}
+
+.info {
+    background-color: blue;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    width: 60vw;
+    height: 500px;
+}
+
+footer > h1 {
+    text-align: center;
 }
