@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 :root {
     --cor-fundo: #FCFCFC;
     --cor-faixasuperior: white;
@@ -11,10 +19,12 @@
     --cor-font3: lightblue;
     --cor-button: rgb(17, 67, 83);
 
-    --font-annabel: @font-face {
-            font-family: annabel;
-            src: url(https://dealjumbo.com/downloads/retro-vintage-grunge-fonts-megabundle/);
-    }
+    --font-noto: "Noto Serif", serif;
+    --font-roboto: "Roboto Mono", monospace;
+    --font-bebas: "Bebas Neue", sans-serif;
+    --font-satisfy: "Satisfy", cursive;
+        
+
 }
 
 * {
@@ -44,9 +54,10 @@ li > a {
 }
 
 li > .nome {
-    font-family: var(--font);
-    font-size: 1.2em;
-    font-weight: bolder;
+    font-family: var(--font-satisfy);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3em;
 }
 
 a:hover {
