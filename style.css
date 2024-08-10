@@ -1,16 +1,28 @@
 @charset "UTF-8";
 
+:root {
+    --cor-fundo: #FCFCFC;
+    --cor-faixasuperior: white;
+    --cor-precarregamento: rgb(139, 207, 230);
+    --cor-itensh1: rgb(173, 202, 230);
+    --cor-rodape: red;
+    --cor-font: rgb(17, 67, 83);
+    --cor-font2: black;
+    --cor-font3: lightblue;
+    --cor-button: rgb(17, 67, 83);
+}
+
 * {
     border: 0;
     margin: 0;
 }
 
 body {
-    background-color: #f5f5f741;
+    background-color: var(--cor-fundo);
 }
 
 .faixasuperior {
-    background-color: white;
+    background-color: var(--cor-faixasuperior);
     text-align: center;
     padding: 20px;
 }
@@ -23,7 +35,7 @@ li > a {
     padding: 0px 30px 0px 30px;
     font-size: 1em;
     text-decoration: none;
-    color: black;
+    color: var(--cor-font2);
 }
 
 li > .nome {
@@ -52,7 +64,7 @@ a:hover {
 }
 
 .imgprincipal > h1 > a {
-    color: rgb(17, 67, 83);
+    color: var(--cor-font);
     text-decoration: none;
     font-size: 80px;
 }
@@ -73,7 +85,7 @@ a:hover {
 
 
 .itens > a {
-    background-color: lightblue;
+    background-color: var(--cor-font3);
     box-shadow: 4px 5px 9px rgba(0, 0, 0, 0.164);
     display: flex;
     position: relative;
@@ -88,8 +100,8 @@ a:hover {
 }
 
 .itens > a > h1 {
-    background-color: rgb(139, 207, 230);
-    color: black;
+    background-color: var(--cor-itensh1);
+    color: var(--cor-font);
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -176,13 +188,12 @@ a:hover {
 }
 
 .boxsuperior > .leftbox {
-    /*background-color: #f5f5f741;*/
     width: 500px;
     height: 600px;
 }
 
 .boxsuperior > .leftbox > h1 {
-    color: rgb(17, 67, 83);
+    color: var(--cor-font);
     text-align: right;
     font-size: 4em;
 }
@@ -196,8 +207,8 @@ a:hover {
 
 .boxsuperior > .leftbox > button {
     background-color: transparent;
-    border: 3px solid rgb(17, 67, 83);
-    color: rgb(17, 67, 83);
+    border: 3px solid var(--cor-button);
+    color: var(--cor-button);
     font-weight: bolder;
     position: absolute;
     left: 300px;
@@ -209,8 +220,8 @@ a:hover {
 
 .boxsuperior > .leftbox > button:hover {
     cursor: pointer;
-    background-color: rgb(17, 67, 83);
-    color: #FCFCFC;
+    background-color: var(--cor-button);
+    color: var(--cor-fundo);
     transition: 0.4s;
 }
 
@@ -231,13 +242,12 @@ a:hover {
 }
 
 .boxmeio > .right {
-    /*background-color: #f5f5f741;*/
     width: 500px;
     height: 600px;
 }
 
 .boxmeio > .rightbox > h1 {
-    color: rgb(17, 67, 83);
+    color: var(--cor-font);
     margin-left: 50px;
     font-size: 4em;
 }
@@ -251,8 +261,8 @@ a:hover {
 
 .boxmeio > .rightbox > button {
     background-color: transparent;
-    border: 3px solid rgb(17, 67, 83);
-    color: rgb(17, 67, 83);
+    border: 3px solid var(--cor-button);
+    color: var(--cor-button);
     font-weight: bolder;
     margin-left: 50px;
     font-size: 1.5em;
@@ -263,8 +273,8 @@ a:hover {
 
 .boxmeio > .rightbox > button:hover {
     cursor: pointer;
-    background-color: rgb(17, 67, 83);
-    color: #FCFCFC;
+    background-color: var(--cor-button);
+    color: var(--cor-fundo);
     transition: 0.4s;
 }
 
@@ -285,13 +295,12 @@ a:hover {
 }
 
 .boxinferior > .leftbox {
-    /*background-color: #f5f5f741;*/
     width: 500px;
     height: 600px;
 }
 
 .boxinferior > .leftbox > h1 {
-    color: rgb(17, 67, 83);
+    color: var(--cor-font);
     text-align: right;
     font-size: 4em;
 }
@@ -304,9 +313,9 @@ a:hover {
 }
 
 .boxinferior > .leftbox > button {
-    background-color: #FCFCFC;
-    border: 3px solid rgb(17, 67, 83);
-    color: rgb(17, 67, 83);
+    background-color: var(--cor-fundo);
+    border: 3px solid var(--cor-button);
+    color: var(--cor-button);
     font-weight: bolder;
     position: absolute;
     left: 300px;
@@ -318,8 +327,8 @@ a:hover {
 
 .boxinferior > .leftbox > button:hover {
     cursor: pointer;
-    background-color: rgb(17, 67, 83);
-    color: #FCFCFC;
+    background-color: var(--cor-button);
+    color: var(--cor-fundo);
     transition: 0.4s;
     
 }
@@ -335,7 +344,7 @@ a:hover {
 /* ----------- MAIS VENDIDOS ----------- */
 
 .boxmv > h1 {
-    color: rgb(17, 67, 83);
+    color: var(--cor-font);
     text-align: center;
     margin-top: 70px;
     margin-bottom: 40px;
@@ -359,8 +368,8 @@ a:hover {
 }
 
 .mvitens > a > .descrimv {
-    background-color: #FCFCFC;
-    color: rgb(17, 67, 83);
+    background-color: var(--cor-fundo);
+    color: var(--cor-font);
     position: absolute;
     bottom: -1px;
     width: 100%;
@@ -371,8 +380,8 @@ a:hover {
 }
 
 .mvitens > a > .valormv {
-    background-color: #FCFCFC;
-    color: black;
+    background-color: var(--cor-fundo);
+    color: var(--cor-font2);
     position: absolute;
     bottom: 0px;
     width: 100%;
@@ -425,7 +434,7 @@ a:hover {
 }
 
 .info > div > h1 {
-    color: rgb(17, 67, 83);
+    color: var(--cor-font);
     text-align: center;
     margin-bottom: 40px;
 }
@@ -433,7 +442,7 @@ a:hover {
 .info > div > a {
     text-decoration: none;
     display:flex;
-    color: black;
+    color: var(--cor-font2);
     font-size: 1.3em;
     margin: 0px 0px 30px 60px;
 }
@@ -443,6 +452,6 @@ a:hover {
 }
 
 .rodape {
-    color: red;
+    color: var(--cor-rodape);
     text-align: center;
 }
