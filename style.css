@@ -10,6 +10,11 @@
     --cor-font2: black;
     --cor-font3: lightblue;
     --cor-button: rgb(17, 67, 83);
+
+    --font-annabel: @font-face {
+            font-family: annabel;
+            src: url(https://dealjumbo.com/downloads/retro-vintage-grunge-fonts-megabundle/);
+    }
 }
 
 * {
@@ -39,6 +44,7 @@ li > a {
 }
 
 li > .nome {
+    font-family: var(--font);
     font-size: 1.2em;
     font-weight: bolder;
 }
