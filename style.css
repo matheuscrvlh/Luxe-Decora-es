@@ -246,7 +246,7 @@ a:hover {
     object-fit: cover;
     position: absolute;
     right: -50px;
-    max-width: 500px;
+    width: 500px;
     height: 600px;
 }
 
